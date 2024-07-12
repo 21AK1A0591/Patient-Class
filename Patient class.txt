@@ -1,0 +1,10 @@
+public class Patient extends User {
+    private String medicalHistory;
+
+    public Patient(String username, String password, String medicalHistory) {
+        super(username, password, "patient");
+        this.medicalHistory = medicalHistory;
+    }
+
+    // Getters and setters
+}
